@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { IoClose } from "react-icons/io5";
 import { Link, useNavigate } from 'react-router-dom';
 import uploadFile from '../helpers/uploadFile';
-import axios from 'axios'
+import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const RegisterPage = () => {
